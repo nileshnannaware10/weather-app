@@ -1,0 +1,128 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    transition: background-image 0.5s ease-in-out;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  
+  .weather-app {
+    max-width: 450px;
+    margin: auto;
+    background: rgba(240, 246, 252, 0.8);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #444;
+    margin-bottom: 15px;
+  }
+  
+  
+  form {
+    margin: 20px 0;
+  }
+  
+  input[type="text"] {
+    width: 70%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    margin-right: 10px;
+    transition: all 0.3s;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #5a98f2;
+    outline: none;
+    box-shadow: 0 0 8px rgba(90, 152, 242, 0.4);
+  }
+  
+  button {
+    padding: 12px 20px;
+    background-color: #5a98f2;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  button:hover {
+    background-color: #477ccf;
+  }
+  
+  
+  #weather-result {
+    margin-top: 20px;
+    text-align: left;
+    background: rgba(240, 240, 255, 0.8);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  #weather-result h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  #weather-result p {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  
+  footer {
+    font-size: 0.9rem;
+    color: #777;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer p a {
+    color: #5a98f2;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  footer p a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 600px) {
+    input[type="text"] {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    button {
+      width: 100%;
+    }
+  
+    #weather-result {
+      text-align: center;
+    }
+  }
+  

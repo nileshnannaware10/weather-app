@@ -13,8 +13,6 @@ A modern and responsive weather application that allows users to check the curre
   - Wind Speed
   - Humidity
   - Last Updated Time
-- **Error Handling**: Gracefully handles errors like invalid city names or API connectivity issues.
-- **Interactive UI**: Modern design with smooth interactions and animations.
 
 
 ## 🚀 Technologies Used

@@ -1,4 +1,4 @@
-# Responsive Weather App 🌤️
+# Responsive Weather App 🌤
 
 A modern and responsive weather application that allows users to check the current weather conditions of any city in India. Built using HTML, CSS, and JavaScript, the app integrates with the OpenWeatherMap API to fetch real-time weather data.
 
